@@ -1,0 +1,10 @@
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T20:54:35.469Z"}
+{"level":"error","message":"ENOENT: no such file or directory, open 'D:\\layout\\templet.ejs'","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T20:54:57.343Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T20:56:14.141Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:05:36.450Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:07:37.604Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:09:37.822Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:11:47.487Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:12:25.010Z"}
+{"level":"error","message":"Unexpected token < in \"D:\\\\projects\\\\lessiaSite\\\\views\\\\index.ejs\"","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:12:28.589Z"}
+{"level":"info","message":"Example app listening at http://:::3000","label":"D:\\projects\\lessiaSite\\app.js","timestamp":"2015-11-08T21:15:00.694Z"}

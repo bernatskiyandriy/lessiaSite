@@ -19,10 +19,10 @@ var server = http.createServer(app).listen(config.get("port"), function () {
   var host = server.address().address;
   var port = server.address().port;
   log.info('Example app listening at http://%s:%s', host, port);
-
 })
 
 // view engine setup
+app.engine('ejs',require('ejs-locals'));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -55,6 +55,7 @@ if (app.get('env') === 'development') {
       message: err.message,
       error: err
     });
+    log.error(err.message);
   });
 }
 
@@ -66,6 +67,7 @@ app.use(function(err, req, res, next) {
     message: err.message,
     error: {}
   });
+  log.error(err.message);
 });
 
 

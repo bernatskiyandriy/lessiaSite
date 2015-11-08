@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%=title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<!-- /header -->
+  	<header>
+		  <%-partial('../partials/header')%>
+  	</header>
+  	<!-- /main container -->
+  	<section>
+      <%-partial('../partials/topNavigation')%>
+  	   <%- body -%>
+  	</section>	
+    <!-- /footer -->
+    <footer>
+    	<%-partial('../partials/footer')%>
+    </footer>
+</html>
