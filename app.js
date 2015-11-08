@@ -1,14 +1,26 @@
 var express = require('express');
 var path = require('path');
+var http = require('http');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var config = require('./config');
+var log = require('./logger')(module);
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+//create server
+var server = http.createServer(app).listen(config.get("port"), function () {
+
+  var host = server.address().address;
+  var port = server.address().port;
+  log.info('Example app listening at http://%s:%s', host, port);
+
+})
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -57,4 +69,4 @@ app.use(function(err, req, res, next) {
 });
 
 
-module.exports = app;
+//module.exports = app;

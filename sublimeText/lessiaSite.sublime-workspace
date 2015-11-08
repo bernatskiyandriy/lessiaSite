@@ -11,6 +11,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/projects/lessiaSite/app.js",
+			"settings":
+			{
+				"buffer_size": 1632,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/projects/lessiaSite/config/index.js",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/projects/lessiaSite/config/config.json",
+			"settings":
+			{
+				"buffer_size": 5,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -25,7 +49,7 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			],
 			[
 				"",
@@ -81,9 +105,21 @@
 	},
 	"expanded_folders":
 	[
+		"/D/projects/lessiaSite",
+		"/D/projects/lessiaSite/config",
+		"/D/projects/lessiaSite/node_modules/express/lib",
+		"/D/projects/lessiaSite/public/images",
+		"/D/projects/lessiaSite/public/javascripts"
 	],
 	"file_history":
 	[
+		"/D/projects/lessiaSite/config/config.js",
+		"/D/projects/lessiaSite/package.json",
+		"/D/projects/lessiaSite/views/error.ejs",
+		"/D/projects/lessiaSite/routes/index.js",
+		"/D/projects/lessiaSite/routes/users.js",
+		"/D/projects/lessiaSite/bin/www",
+		"/D/projects/lessiaSite/README.md",
 		"/D/projects/designStudio/sass/style.scss",
 		"/D/projects/designStudio/README.md",
 		"/D/projects/designStudio/README.sublime-project",
@@ -101,7 +137,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 21.0
 	},
 	"find_in_files":
 	{
@@ -115,6 +151,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"});"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -132,14 +169,111 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/projects/lessiaSite/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1632,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								34
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"hasHeader": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/projects/lessiaSite/config/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								30
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/projects/lessiaSite/config/config.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5,
+								5
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"encoding_helper_encoding": "UTF-8",
+							"encoding_thread_running": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 21.0
 	},
 	"input":
 	{
@@ -172,11 +306,11 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Nodejs/Nodejs.sublime-build",
 	"project": "lessiaSite.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 38.0
 	},
 	"save_all_on_build": true,
 	"select_file":
